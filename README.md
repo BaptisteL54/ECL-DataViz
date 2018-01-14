@@ -7,7 +7,7 @@ So just like the Stacked Area Graph, the value of the different data are proport
 Stream Graphs are particularly useful to analyse the trends of high-volume datasets, and they are very aesthetic. But its main drawbacks is that the smaller values are hidden in the large shapes of the higher ones. Another problem is that we can't read the exact value of datasets with these graphs, because there isn't an axis to allow that. However it can be seen as an benefit for thoses who want to focus their reader to the trends and not the values.
 As a conclusion the stream graph is a very particular graph, which make him unique and therefore interesting. It's an ideal solution for people who look for aesthetics and trends representations.
 
-_Source: https://datavizcatalogue.com/methods/stream_graph.html _
+*Source: https://datavizcatalogue.com/methods/stream_graph.html*
 
 ## Examples
 
@@ -17,7 +17,7 @@ Lee Byron created a stream graph about his listening history with the help of La
 
 <img src="http://benfry.com/fall06/lee/images/example.jpg">
 
-_Source : http://benfry.com/fall06/lee/ _
+*Source : http://benfry.com/fall06/lee/*
 
 ### The Ebb and Flow of Movies
 
@@ -26,4 +26,4 @@ The NY Times made a stream graph to represent the Box Office Receipts from 1986 
 
 <img src="http://www.visualisingdata.com/blog/wp-content/uploads/2010/07/NYTStreamGraph-600x309.png">
 
-_ Source : http://www.nytimes.com/interactive/2008/02/23/movies/20080223_REVENUE_GRAPHIC.html _
+*Source : http://www.nytimes.com/interactive/2008/02/23/movies/20080223_REVENUE_GRAPHIC.html*
