@@ -15,7 +15,7 @@ As a conclusion the stream graph is a very particular graph, which make him uniq
 
 Lee Byron created a stream graph about his listening history with the help of Last.fm that logged the music he listened to. We can see his graph down there.
 
-<img src="http://benfry.com/fall06/lee/images/example.jpg">
+<img src="img/ListeningHistory.jpg">
 
 *Source : http://benfry.com/fall06/lee/*
 
@@ -24,6 +24,6 @@ Lee Byron created a stream graph about his listening history with the help of La
 The NY Times made a stream graph to represent the Box Office Receipts from 1986 to 2008 for the main movies.
 
 
-<img src="http://www.visualisingdata.com/blog/wp-content/uploads/2010/07/NYTStreamGraph-600x309.png">
+<img src="img/NYT.png">
 
 *Source : http://www.nytimes.com/interactive/2008/02/23/movies/20080223_REVENUE_GRAPHIC.html*
