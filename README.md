@@ -19,9 +19,9 @@ Lee Byron created a stream graph about his listening history with the help of La
 
 *Source : http://benfry.com/fall06/lee/*
 
-In this graph, everytime Lee Byron listens to a new artist, this one is added to the borders. The height of the steam shapes shows how much an artist has been listened to. And the color is warm if the artist has been discovered recently, and cold if the artist is known for long. The writings in the shapes shows the artists names.
-This steam graph allows the viewer to see easily the trends (like every steam graph), just by loonking the global height. For example we can see that in December 2005 and August 2006, Lee Byron listened fewer music. It's also interesting to be able to see if the artist is listened to and known for a long time (blue color) or not. For a period, the viewer can also know which artist is the favourite at this time.
-But once again, the listening ammount can't be accessed by this steam graph, which could be allowed if the graph was interactive, then just flying the mouse over the artist would highlight its evolution. Furthermore it's really hard to follow the evolution of one artist and to study the artists that are not heard often. 
+In this graph, everytime Lee Byron listens to a new artist, this one is added to the borders. The height of the stream shapes shows how much an artist has been listened to. And the color is warm if the artist has been discovered recently, and cold if the artist is known for long. The writings in the shapes shows the artists names.
+This stream graph allows the viewer to see easily the trends (like every stream graph), just by loonking the global height. For example we can see that in December 2005 and August 2006, Lee Byron listened fewer music. It's also interesting to be able to see if the artist is listened to and known for a long time (blue color) or not. For a period, the viewer can also know which artist is the favourite at this time.
+But once again, the listening ammount can't be accessed by this stream graph, which could be allowed if the graph was interactive, then just flying the mouse over the artist would highlight its evolution. Furthermore it's really hard to follow the evolution of one artist and to study the artists that are not heard often. 
 
 
 ### The Ebb and Flow of Movies
@@ -33,10 +33,19 @@ The NY Times made a stream graph to represent the Box Office Receipts from 1986 
 
 *Source : http://www.nytimes.com/interactive/2008/02/23/movies/20080223_REVENUE_GRAPHIC.html*
 
-There, the height of a steam shape shows the money that the movie has earned throughout the time. So the wider it is, the longer it has earned money. And the color are used to scale the receipts. The darker it is, the more money the movie made.
+There, the height of a stream shape shows the money that the movie has earned throughout the time. So the wider it is, the longer it has earned money. And the color are used to scale the receipts. The darker it is, the more money the movie made.
 A particularity of this graph is the given ability to move throughout time. It allows the graph to have a better scale, even if the data covers a very wide spectrum of time.
 Since it is interactive, the viewer see the data highlited when he flies the mouse over it so that the longevity of the movie is clearly shown, and details about the movie are also available. The main movies are clearly visible, as the global trends (if cinema makes a lot of money during a period).
 But once again, only the main movies are visible, and every smaller ones are hidden, like the yellow ones.
 
 
-These two examples depicts well the strengths and weaknesses of the stream graphs, described in the first part of this document.
+These two quite known examples depicts well the strengths and weaknesses of the stream graphs, described in the first part of this document. But an other example is also interesting to present.
+
+### Twitter StreamGraphs
+
+<img src="img/tsg_coffee.jpg">
+*Source : https://www.neoformix.com/2008/TwitterStreamGraphs.html*
+
+This one is a tool in which the user enters a word and a streamgraph is then created. 200 tweets are studied and all those containing the selected word are chosen, and the other words of the tweets are stored. Then a sum is done of all these other words and we can see them in the graph. So he streamsraph shows the usage over time for the words most highly associated with the search word.
+In the example, the word coffee is chosen, and for example a lot of tweets also contained the word need.
+It's also interactive and if we chose a stream shape, we highlight it and have access to the related tweets.
