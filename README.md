@@ -39,9 +39,9 @@ Since it is interactive, the viewer see the data highlited when he flies the mou
 But once again, only the main movies are visible, and every smaller ones are hidden, like the yellow ones.
 
 
-These two quite known examples depicts well the strengths and weaknesses of the stream graphs, described in the first part of this document. But an other example is also interesting to present.
-
 ### Twitter StreamGraphs
+
+An other example is also interesting to present.
 
 <img src="img/tsg_coffee.jpg">
 
@@ -50,3 +50,8 @@ These two quite known examples depicts well the strengths and weaknesses of the 
 This one is a tool in which the user enters a word and a streamgraph is then created. 200 tweets are studied and all those containing the selected word are chosen, and the other words of the tweets are stored. Then a sum is done of all these other words and we can see them in the graph. So he streamsraph shows the usage over time for the words most highly associated with the search word.
 In the example, the word coffee is chosen, and for example a lot of tweets also contained the word need.
 It's also interactive and if we chose a stream shape, we highlight it and have access to the related tweets.
+
+
+#Conclusion
+
+As it has been said, the streamgraph is a particular graph which is aesthetic and presents easily the global trends, but is not adapted if the values are important since just their proportions are visible. The first two examples are the most popular streamgraphs and depicts well the strengths and weaknesses of the streamgraphs, described in the first part of this document. Other examples exists on the internet, but they don't show other interesting aspects.
