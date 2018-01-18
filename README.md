@@ -19,7 +19,7 @@ Lee Byron created a stream graph about his listening history with the help of La
 
 *Source : http://benfry.com/fall06/lee/*
 
-In this graph, everytime Lee Byron hears a new artist, this one is added to the borders. The height of the steam shapes shows how much an artist has been listened to. And the color is warm if the artist has been discovered recently, and cold if the artist is known for long. The writings in the shapes shows the artists names.
+In this graph, everytime Lee Byron listens to a new artist, this one is added to the borders. The height of the steam shapes shows how much an artist has been listened to. And the color is warm if the artist has been discovered recently, and cold if the artist is known for long. The writings in the shapes shows the artists names.
 This steam graph allows the viewer to see easily the trends (like every steam graph), just by loonking the global height. For example we can see that in December 2005 and August 2006, Lee Byron listened fewer music. It's also interesting to be able to see if the artist is listened to and known for a long time (blue color) or not. For a period, the viewer can also know which artist is the favourite at this time.
 But once again, the listening ammount can't be accessed by this steam graph, which could be allowed if the graph was interactive, then just flying the mouse over the artist would highlight its evolution. Furthermore it's really hard to follow the evolution of one artist and to study the artists that are not heard often. 
 
