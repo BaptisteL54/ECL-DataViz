@@ -52,6 +52,6 @@ In the example, the word coffee is chosen, and for example a lot of tweets also 
 It's also interactive and if we chose a stream shape, we highlight it and have access to the related tweets.
 
 
-#Conclusion
+# Conclusion
 
 As it has been said, the streamgraph is a particular graph which is aesthetic and presents easily the global trends, but is not adapted if the values are important since just their proportions are visible. The first two examples are the most popular streamgraphs and depicts well the strengths and weaknesses of the streamgraphs, described in the first part of this document. Other examples exists on the internet, but they don't show other interesting aspects.
