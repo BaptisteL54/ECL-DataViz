@@ -44,6 +44,7 @@ These two quite known examples depicts well the strengths and weaknesses of the 
 ### Twitter StreamGraphs
 
 <img src="img/tsg_coffee.jpg">
+
 *Source : https://www.neoformix.com/2008/TwitterStreamGraphs.html*
 
 This one is a tool in which the user enters a word and a streamgraph is then created. 200 tweets are studied and all those containing the selected word are chosen, and the other words of the tweets are stored. Then a sum is done of all these other words and we can see them in the graph. So he streamsraph shows the usage over time for the words most highly associated with the search word.
