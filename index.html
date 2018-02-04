@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <style>
+    body { margin:0;position:fixed;top:0;right:0;bottom:0;left:0; }
+  </style>
+</head>
+
+<body>
+  <script>
+		var width = 700,
+  		  height = 580;
+
+		var svg = d3.select( "body" )
+  		.append( "svg" )
+		  .attr( "width", width )
+		  .attr( "height", height );
+
+    var projection = d3.geoConicConformal().center([2.454071, 46.279229]).scale(2800);
+
+    var path = d3.geoPath() // d3.geo.path avec d3 version 3
+                 .projection(projection);
+    
+		
+      d3.csv("GrippeFrance2014.csv", function(data) {
+    
+
+    d3.json("regions.json", function(json) {
+      //On fusionne les donnees avec le GeoJSON des regions
+      for (var i = 0; i < data.length; i++) {
+        for (var j=0; j<json.features.length; j++){
+           if (json.features[j].properties.nom==data[i].region){
+            json.features[j].properties.grippe=data[i].somme2014; 
+            json.features[j].properties.grippe=+json.features[j].properties.grippe;
+            //console.log(json.features[j].properties.grippe);
+          } 
+        }
+      	
+      }
+      max=d3.max(data, function(d){ return d.somme2014});
+      color=d3.scaleLinear().domain([0,3000]).range(['red','blue']);
+    
+      console.log(d3.max(data, function(d){ return d.somme2014}));
+      svg.selectAll("path")
+      		.data(json.features)
+           .enter()
+           .append("path")
+           .attr("d", path)	
+        	.style("fill", function(d) {
+        		var value = d.properties.grippe;
+        		if (value){
+        			return color(value);}})
+      		.on("mouseover", function(d){
+        coordinates = d3.mouse(this);
+        var x = coordinates[0];
+        var y = coordinates[1];
+        svg.append("text")
+        .attr("class","etiquette")
+        .attr("x",x)
+        .attr("y",y)
+        .text(d.properties.grippe);})
+      		.on("mouseout", function(d) {svg.select(".etiquette").remove()});
+    });
+
+      
+
+		});
+  </script>
+</body>
