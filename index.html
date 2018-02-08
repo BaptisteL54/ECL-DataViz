@@ -23,10 +23,10 @@
                  .projection(projection);
     
 		
-      d3.csv("GrippeFrance2014.csv", function(data) {
+      d3.csv("data/GrippeFrance2014.csv", function(data) {
     
 
-    d3.json("regions.json", function(json) {
+    d3.json("data/regions.json", function(json) {
       //On fusionne les donnees avec le GeoJSON des regions
       for (var i = 0; i < data.length; i++) {
         for (var j=0; j<json.features.length; j++){
